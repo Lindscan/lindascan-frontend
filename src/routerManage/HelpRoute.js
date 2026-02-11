@@ -59,7 +59,7 @@ export const HelpRoutes = [
             "-",
             "Development",
             {
-                url: "https://github.com/lindascan/lindascan-frontend/blob/dev2019/document/api.md",
+                url: "https://github.com/lindscan/lindascan-frontend/blob/dev2019/document/api.md",
                 label: "linda_explorer_api"
             },
             {
@@ -73,7 +73,7 @@ export const HelpRoutes = [
             "-",
             "Feedback",
             {
-                url: "https://github.com/lindascan/lindascan-frontend/issues/new",
+                url: "https://github.com/lindscan/lindascan-frontend/issues/new",
                 label: "report_an_error"
             }
         ]

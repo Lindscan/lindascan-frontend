@@ -989,7 +989,7 @@ export const routes = [
         },
         {
           url:
-            "https://github.com/lindascan/lindascan-frontend/blob/dev2019/document/api.md",
+            "https://github.com/lindscan/lindascan-frontend/blob/dev2019/document/api.md",
           icon: false,
           label: "linda_explorer_api"
         },
@@ -1021,7 +1021,7 @@ export const routes = [
         //     label: "telegram"
         // },
         // {
-        //     url: "https://github.com/lindascan/lindascan-frontend/issues/new",
+        //     url: "https://github.com/lindscan/lindascan-frontend/issues/new",
         //     label: "report_an_error"
         // }
       ],
@@ -1046,7 +1046,7 @@ export const routes = [
         //   component: NodeTesterAsync
         // }
         // {
-        //     url: "https://github.com/lindascan/lindascan-desktop/releases",
+        //     url: "https://github.com/lindscan/lindascan-desktop/releases",
         //     icon: "fa fa-download",
         //     label: "desktop_explorer"
         // },

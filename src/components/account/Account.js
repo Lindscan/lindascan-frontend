@@ -3019,7 +3019,7 @@ export default class Account extends Component {
                           </p>
                           <p className="float-right">
                             <HrefLink className="btn btn-success"
-                                      href="https://github.com/lindascan/lindasr-template#readme">
+                                      href="https://github.com/lindscan/lindasr-template#readme">
                               {tu("SR_set_github_learn_more")}
                             </HrefLink>
                           </p>

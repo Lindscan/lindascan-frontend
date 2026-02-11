@@ -27,7 +27,7 @@ export const MoreRoutes = [
                     label: "linda_architechure"
                 },
                 {
-                    url: "https://github.com/lindascan/lindascan-frontend/blob/dev2019/document/api.md",
+                    url: "https://github.com/lindscan/lindascan-frontend/blob/dev2019/document/api.md",
                     // icon: "fa fa-building",
                     label: "linda_explorer_api"
                 },
@@ -72,7 +72,7 @@ export const MoreRoutes = [
                 //     label: "telegram"
                 // },
                 // {
-                //     url: "https://github.com/lindascan/lindascan-frontend/issues/new",
+                //     url: "https://github.com/lindscan/lindascan-frontend/issues/new",
                 //     label: "report_an_error"
                 // }
             ],
@@ -109,7 +109,7 @@ export const MoreRoutes = [
                 //   component: NodeTesterAsync
                 // }
                 // {
-                //     url: "https://github.com/lindascan/lindascan-desktop/releases",
+                //     url: "https://github.com/lindscan/lindascan-desktop/releases",
                 //     icon: "fa fa-download",
                 //     label: "desktop_explorer"
                 // },

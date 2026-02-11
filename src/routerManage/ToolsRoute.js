@@ -45,7 +45,7 @@ export const ToolsRoutes = [
                 component: SystemAsync
             },
             {
-                url: "https://github.com/lindascan/lindascan-desktop/releases",
+                url: "https://github.com/lindscan/lindascan-desktop/releases",
                 icon: "fa fa-download",
                 label: "desktop_explorer"
             },

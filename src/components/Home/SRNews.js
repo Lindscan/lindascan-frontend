@@ -52,7 +52,7 @@ export default class SRNews extends Component {
                   <p className="card-text">
                     As a Super Representative you have the possibility to fully manage your own content
                     and better inform your voters.{' '}<br />
-                    <a href="https://github.com/lindascan/lindasr-template#readme"
+                    <a href="https://github.com/lindscan/lindasr-template#readme"
                        target="_blank" className="card-link text-primary">
                       Read more about publishing a page
                     </a>
