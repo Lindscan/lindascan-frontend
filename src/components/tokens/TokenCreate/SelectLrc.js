@@ -115,11 +115,11 @@ export class TokenCreate extends Component {
           <p className="text-muted mb-4 font-weight-light">{tu('select_tip1')}<br/>
           {tu('select_tip2')}</p>
 
-          <div className="d-flex justify-content-between mx-auto mb-5 select-trc">
+          <div className="d-flex justify-content-between mx-auto mb-5 select-lrc">
             {
               [10, 20].map(item => {
-                return  <div className={`select-trc-item ${type == `trc${item}`&& 'is-active'}`}  key={item}
-                          onClick={() => {this.setSelect(`trc${item}`)}}>
+                return  <div className={`select-lrc-item ${type == `lrc${item}`&& 'is-active'}`}  key={item}
+                          onClick={() => {this.setSelect(`lrc${item}`)}}>
                           <div className="text-center">
                             <h1 className="mb-0">{item}</h1>{tu('token')}
                           </div>
