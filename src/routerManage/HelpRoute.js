@@ -43,7 +43,7 @@ export const HelpRoutes = [
                 path: "/help/ledger"
             },
             {
-                url: "https://t.me/tronscan",
+                url: "https://t.me/lindascan",
                 label: "telegram_updates"
             },
             "-",
@@ -53,7 +53,7 @@ export const HelpRoutes = [
                 label: "reddit"
             },
             {
-                url: "https://t.me/tronscantalk",
+                url: "https://t.me/lindascantalk",
                 label: "telegram"
             },
             "-",

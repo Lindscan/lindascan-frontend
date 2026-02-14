@@ -37,7 +37,7 @@ import {
   VoteOverviewAsync,
   WalletWizardAsync,
   ContractCompilerAsync,
-  //Exchangetrc,
+  //Exchangelrc,
   SmartContract,
   Representative,
   //BTTSupplyTemp,
@@ -704,14 +704,9 @@ export const routes = [
   //   showInMenu: IS_MAINNET ? true : false,
   //   routes: [
   //     // {
-  //     //     url: "https://www.tronace.com/?utm_source=TS",
+  //     //     url: "https://www.lindaace.com/?utm_source=TS",
   //     //     icon: "fas fa-dollar-sign",
   //     //     label: "LINDAAce"
-  //     // },
-  //     // {
-  //     //     url: "https://www.tronbet.io/#/?utm_source=TS",
-  //     //     icon: "fas fa-dice-six",
-  //     //     label: "LINDAbet"
   //     // },
      
   //   ]
@@ -858,8 +853,8 @@ export const routes = [
       //   component: NodeTesterAsync
       // },
       {
-        label: "tron_convert_tool",
-        path: "/tools/tron-convert-tool",
+        label: "linda_convert_tool",
+        path: "/tools/linda-convert-tool",
         // icon: "fa fa-random",
         icon: false,
         component: LindaConvertToolAsync
@@ -872,7 +867,7 @@ export const routes = [
         component: SystemAsync
       },
       {
-        url: "https://github.com/tronscan/tronscan-desktop/releases",
+        url: "https://github.com/lindascan/lindascan-desktop/releases",
         // icon: "fa fa-download",
         icon: false,
         label: "desktop_explorer"
@@ -937,16 +932,16 @@ export const routes = [
         component: LedgerHelpAsync,
         path: "/help/ledger"
       },
-      { url: "https://t.me/tronscan", label: "telegram_updates" },
+      { url: "https://t.me/lindascan", label: "telegram_updates" },
       "-",
       "Community",
       { url: "https://www.reddit.com/r/tronix", label: "reddit" },
-      { url: "https://t.me/tronscantalk", label: "telegram" },
+      { url: "https://t.me/lindascantalk", label: "telegram" },
       "-",
       "Development",
       {
         url:
-          "https://github.com/tronscan/tronscan-frontend/blob/dev2019/document/api.md",
+          "https://github.com/lindascan/lindascan-frontend/blob/dev2019/document/api.md",
         label: "linda_explorer_api"
       },
       {
@@ -962,7 +957,7 @@ export const routes = [
       "-",
       "Feedback",
       {
-        url: "https://github.com/tronscan/tronscan-frontend/issues/new",
+        url: "https://github.com/lindascan/lindascan-frontend/issues/new",
         label: "report_an_error"
       }
     ]
@@ -1011,13 +1006,13 @@ export const routes = [
         //     path: "/help/ledger"
         // },
         // {
-        //     url: "https://t.me/tronscan",
+        //     url: "https://t.me/lindascan",
         //     label: "telegram_updates"
         // },
-        // {   url: "https://www.reddit.com/r/tronix",
+        // {   url: "https://www.reddit.com/r/lindaix",
         //     label: "reddit"
         // },
-        // {   url: "https://t.me/tronscantalk",
+        // {   url: "https://t.me/lindascantalk",
         //     label: "telegram"
         // },
         // {

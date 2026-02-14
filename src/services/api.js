@@ -1,6 +1,6 @@
-import { Client as ApiClient } from "@lindascan/client";
+import { Client as ApiClient } from "@lindascan/apiclients";
 import io from "socket.io-client";
-import LindaWeb from "lindaweb";
+import LindaWeb from "@lindacoin/lindaweb";
 import xhr from "axios/index";
 import { API_URL,API_URL_SUNNET } from "../constants.js";
 import { setLoginWithAddress } from "../actions/app.js";

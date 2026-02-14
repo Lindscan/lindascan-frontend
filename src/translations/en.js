@@ -1755,7 +1755,7 @@ export const messages = {
   propose_17: "Propose to allow resource delegation",
   propose_18: "Propose to modify the total energy limit",
   propose_18_1: "Propose to modify current total energy limit",
-  propose_19: "Propose to allow the TRC-10 token transfer in smart contracts",
+  propose_19: "Propose to allow the LRC-10 token transfer in smart contracts",
   propose_20: "Propose to modify the total energy current limit",
   propose_21: "Propose to allow the initiation of multi-signature",
   propose_22: "Propose to allow adaptive adjustment for total Energy",
@@ -2167,7 +2167,7 @@ export const messages = {
   contracts_from_the_total_used_of: "contracts from the total used of",
   Contract_times_calls:
     "Contract times calls(Sorted by Contract times value in descending order)",
-  "20_transfers": "TRC-20 transfers",
+  "20_transfers": "LRC-20 transfers",
   internal_transactions: "internal transactions",
 
   /*

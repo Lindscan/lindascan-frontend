@@ -11,7 +11,7 @@ import SignList from "./common/SignList";
 import {TransationTitle} from './common/Title'
 import {injectIntl} from "react-intl";
 import Field from "../../../tools/TransactionViewer/Field";
-import {toUtf8} from 'lindaweb'
+import {toUtf8} from '@lindacoin/lindaweb'
 import { Client } from "../../../../services/api";
 
 async function getContractValue(id) {

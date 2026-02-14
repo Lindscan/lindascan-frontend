@@ -21,7 +21,7 @@ import CreateTxnPairModal from "./CreateTxnPairModal";
 import OperateTxnPairModal from "./OperateTxnPairModal";
 import {addDays, getTime} from "date-fns";
 import Transactions from "../common/Transactions";
-import {decode58Check, pkToAddress, isAddressValid} from "@lindascan/client/src/utils/crypto";
+import {decode58Check, pkToAddress, isAddressValid} from "@lindascan/apiclients/src/utils/crypto";
 import {QuestionMark} from "../common/QuestionMark";
 import Lockr from "lockr";
 import {withLindaWeb} from "../../utils/lindaWeb";
@@ -32,7 +32,7 @@ import {loadVoteTimer} from "../../actions/votes";
 import {connect} from "react-redux";
 import {CopyToClipboard} from "react-copy-to-clipboard";
 import QRCode from "qrcode.react";
-import {byteArray2hexStr} from "@lindascan/client/src/utils/bytes";
+import {byteArray2hexStr} from "@lindascan/apiclients/src/utils/bytes";
 import { FormatNumberByDecimals } from '../../utils/number'
 import { getQueryString } from "../../utils/url";
 import IssuedToken from './IssuedToken';

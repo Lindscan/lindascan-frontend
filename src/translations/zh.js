@@ -841,7 +841,7 @@ export const messages = {
     "ledger_note": "注意",
     "ledger_note_message_1": "目前仅支持Ledger Nano S,Ledger Nano X,Ledger Blue",
     "ledger_note_message_2": "使用谷歌chrome浏览器",
-    "ledger_note_message_3": "支持功能：LIND转账，TRC 10 通证转账，TRC 20 通证转账，冻结LIND，解冻LIND，投票，设置账户名称。",
+    "ledger_note_message_3": "支持功能：LIND转账，LRC 10 通证转账，LRC 20 通证转账，冻结LIND，解冻LIND，投票，设置账户名称。",
     "ledger_note_message_4": "目前不支持的功能：创建通证，交易所交易，申请超级代表，解冻锁仓的通证，领取出块收益，更新github链接，创建交易对，交易对注资，交易对撤资。",
 
     /*
@@ -1572,7 +1572,7 @@ export const messages = {
     "propose_17": "提议允许资源委派",
     "propose_18": "提议修改总Energy上限",
     "propose_18_1": "提议修改当前总Energy上限",
-    "propose_19": "提议允许智能合约转TRC-10的通证",
+    "propose_19": "提议允许智能合约转LRC-10的通证",
     "propose_20": "提议修改ENERGY总量",
     "propose_21": "提议允许开启多重签名功能",
     "propose_22": "提议允许ENERGY总量自适应调整",
@@ -1663,7 +1663,7 @@ export const messages = {
     "dex_search_dec": "输入想交易代币的简称",
     "LRC20_exchange_online": "LRC20交易所上线啦",
     "Trade_on_Poloni DEX": "去Poloni DEX交易",
-    "issued_token_of_lindascan": "已发行的通证，只有经过lindascan审核后，才会展示到TRC 10通证概览中。",
+    "issued_token_of_lindascan": "已发行的通证，只有经过lindascan审核后，才会展示到LRC 10通证概览中。",
 
     /*
      ##################################################################################
@@ -1922,7 +1922,7 @@ export const messages = {
     "BTT_supply": "BTT 流通量",
     "BTT_Token_Release_Schedule": "BTT 代币解锁时间表",
     "source_btt_team": "信息来源：BTT管理团队",
-    "20_transfers": "TRC-20转账",
+    "20_transfers": "LRC-20转账",
     "internal_transactions": "合约内交易",
     "total_energy_used_chart": "每日合约能量消耗图",
     "total_used_energy": "总能量消耗",

@@ -1,6 +1,6 @@
 import React from "react";
 import { injectIntl } from "react-intl";
-import lindaWeb from "lindaweb";
+import lindaWeb from "@lindacoin/lindaweb";
 import {
   API_URL,
   IS_MAINNET,

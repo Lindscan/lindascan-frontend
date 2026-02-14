@@ -19,7 +19,7 @@ import Transfers from "./Transfers.js";
 import { Information } from "./Information.js";
 //import qs from "qs";
 import { toastr } from "react-redux-toastr";
-import { isAddressValid } from "@lindascan/client/src/utils/crypto";
+import { isAddressValid } from "@lindascan/apiclients/src/utils/crypto";
 import {
   API_URL,
   ONE_LIND,
@@ -36,7 +36,7 @@ import { reloadWallet } from "../../../actions/wallet";
 import { updateTokenInfo } from "../../../actions/tokenInfo";
 import { connect } from "react-redux";
 import SweetAlert from "react-bootstrap-sweetalert";
-import { pkToAddress } from "@lindascan/client/src/utils/crypto";
+import { pkToAddress } from "@lindascan/apiclients/src/utils/crypto";
 import { Link } from "react-router-dom";
 import { some, toLower } from "lodash";
 import xhr from "axios/index";

@@ -179,8 +179,8 @@ export const SmartContract = loadable(() =>
   import(/* webpackChunkName: "SmartContract" */ "./blockchain/Contract")
 );
 
-export const Exchangetrc = loadable(() =>
-  import(/* webpackChunkName: "Exchangetrc" */ "./exchange/index")
+export const Exchangelrc = loadable(() =>
+  import(/* webpackChunkName: "Exchangelrc" */ "./exchange/index")
 );
 
 export const Representative = loadable(() =>

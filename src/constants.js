@@ -9,8 +9,8 @@ export const IS_TESTNET = process.env.NET === "testnet";
 export const IS_DESKTOP = process.env.DESKTOP === "true";
 
 export const NETURL = {
-NEWMAINNET: "https://tronscan.io",
-  NEWSUNNET: "https://dappchain.tronscan.io",
+NEWMAINNET: "https://lindascan.org",
+  NEWSUNNET: "https://dappchain.lindascan.org",
   // MAINNET: "http://18.217.215.94:65",
   // SUNNET: "http://18.217.215.94:66",
   // MAINNET: "https://debug.lindascan.org",
@@ -29,7 +29,7 @@ let NODEAPI;
 if (NODE_ENV == "development") {
   MAINNET = Lockr.get("NET") === "mainnet" || !Lockr.get("NET");
   SUNNET = Lockr.get("NET") === "sunnet";
-  // NODEAPI = "https://tronexapi.lindascan.org";
+  // NODEAPI = "https://lindaexapi.lindascan.org";
   // NODEAPI = "http://18.222.181.154:9017"
   NODEAPI = process.env.API_URL;
 } else {
@@ -62,7 +62,7 @@ export const PUBLIC_URL = process.env.PUBLIC_URL || window.location.origin;
 
 
 export const API_URL_SUNNET = "https://dappchainapi.lindascan.org";
-// export const API_URL_SUNNET =  "http://3.15.181.169:9000"  //dappchain tronex
+// export const API_URL_SUNNET =  "http://3.15.181.169:9000"  //dappchain lindaex
 // export const API_URL_SUNNET = "https://debugdappchainapilist.lindascan.org";
 
 export const API_URL = IS_SUNNET ? API_URL_SUNNET : process.env.API_URL;
@@ -121,10 +121,10 @@ export const RETRYFEE = 0;
 export const LINDDEPOSITMIN = 10;
 // withdraw min lind
 export const LINDWITHDRAWMIN = 10;
-// deposi min trc
-export const TRCDEPOSITMIN = 1;
-// withdraw min trc
-export const TRCWITHDRAWMIN = 1;
+// deposi min lrc
+export const LRCDEPOSITMIN = 1;
+// withdraw min lrc
+export const LRCWITHDRAWMIN = 1;
 
 // trading type
 export const TRADINGMAP = {
@@ -165,7 +165,7 @@ export const SUNWEBCONFIG = {
 
   
 
-  // for tronex
+  // for lindaex
   // MAINFULLNODE: "https://testhttpapi.lindaex.lindacoin.org",
   // MAINSOLIDITYNODE: "https://testhttpapi.lindaex.lindacoin.org",
   // MAINEVENTSERVER: "https://testapi.lindaex.lindacoin.org",
@@ -181,13 +181,13 @@ export const SUNWEBCONFIG = {
 
 //Socket config
 export const TORNSOCKET = {
-  WSSURLMAIN: "wss://apilist.lindascan.org/api/tronsocket",
-  WSSURLSUN: "wss://dappchainapi.lindascan.org/api/tronsocket",
+  WSSURLMAIN: "wss://apilist.lindascan.org/api/lindasocket",
+  WSSURLSUN: "wss://dappchainapi.lindascan.org/api/lindasocket",
 };
 
 // export const TORNSOCKET = {
-//   WSSURLMAIN: "ws://52.15.68.74:10000/api/tronsocket",
-//   WSSURLSUN: "ws://52.15.68.74:10001/api/tronsocket"
+//   WSSURLMAIN: "ws://52.15.68.74:10000/api/lindasocket",
+//   WSSURLSUN: "ws://52.15.68.74:10001/api/lindasocket"
 // };
 
 // token type

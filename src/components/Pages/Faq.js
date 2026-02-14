@@ -62,7 +62,7 @@ export default class Faq extends Component {
                         </li>
                         <li>
                           LINDA&rsquo;s Wallet CLI. <HrefLink
-                            href="https://github.com/lindaprotocol/wallet-cli">https://github.com/tronprotocol/wallet-cli</HrefLink>
+                            href="https://github.com/lindaprotocol/wallet-cli">https://github.com/lindaprotocol/wallet-cli</HrefLink>
                         </li>
                       </ul>
                     </li>
@@ -113,7 +113,7 @@ export default class Faq extends Component {
                     you will see a list of all SR candidates. Next to each one is a link and you can open a page with
                     information about that SR. This is a perfect place for light research, since this is also where you
                     can vote. The second central location for SR information is at <HrefLink
-                        href="https://tron.live/">https://tron.live</HrefLink>.</p>
+                        href="https://linda.live/">https://linda.live</HrefLink>.</p>
                   <h2>What are full, witness and solidity nodes?</h2>
                   <p>Nodes are servers that run the LINDA blockchain software.</p>
                   <p>There are only 27 Witness nodes, worldwide, and they are each run by independent companies. These

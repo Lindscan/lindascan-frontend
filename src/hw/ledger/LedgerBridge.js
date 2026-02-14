@@ -1,8 +1,8 @@
-import AppLind from '@ledgerhq/hw-app-lind';
+import AppLind from '@lindascan/hw-app-lind';
 import Transport from "@ledgerhq/hw-transport-u2f";
 import xhr from "axios/index";
-import {decode58Check, isAddressValid} from "@lindascan/client/src/utils/crypto";
-import { byteArray2hexStr } from "@lindascan/client/src/utils/bytes";
+import {decode58Check, isAddressValid} from "@lindascan/apiclients/src/utils/crypto";
+import { byteArray2hexStr } from "@lindascan/apiclients/src/utils/bytes";
 import { SUNWEBCONFIG } from "../../constants"
 import { Client } from "../../services/api";
 export default class LedgerBridge {

@@ -7,7 +7,7 @@ import {AddressLink} from "../../common/Links";
 import {QuestionMark} from "../../common/QuestionMark";
 import {ONE_LIND,IS_MAINNET} from "../../../constants";
 import { Link } from "react-router-dom";
-import { isAddressValid } from "@lindascan/client/src/utils/crypto";
+import { isAddressValid } from "@lindascan/apiclients/src/utils/crypto";
 
 class ProposalDetail extends React.Component {
 

@@ -13,7 +13,7 @@ import { upperFirst } from "lodash";
 import { Tooltip,Icon } from 'antd';
 import { injectIntl } from "react-intl";
 import Field from "../../../tools/TransactionViewer/Field";
-import {toUtf8} from 'lindaweb'
+import {toUtf8} from '@lindacoin/lindaweb'
 
 function WitnessUpdateContract({contract,intl}){
   let url = toUtf8(contract.update_url);

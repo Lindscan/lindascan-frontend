@@ -11,7 +11,7 @@ import { App } from "../../app";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import QRCode from "qrcode.react";
 import { Client } from "../../services/api";
-import { isAddressValid } from "@lindascan/client/src/utils/crypto";
+import { isAddressValid } from "@lindascan/apiclients/src/utils/crypto";
 import { Tooltip, message } from "antd";
 import { injectIntl } from "react-intl";
 

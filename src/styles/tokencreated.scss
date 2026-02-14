@@ -98,7 +98,7 @@
     }
   }
 
-  .select-trc {
+  .select-lrc {
     width: 730px;
 
     &-item {
@@ -106,13 +106,13 @@
       align-items: center;
       height: 180px;
       width: 344px;
-      background-image: url(../images/step_icon/trc_default.png);
+      background-image: url(../images/step_icon/lrc_default.png);
       background-size: 100% 100%;
       font-size: 18px;
       cursor: pointer;
 
       &.is-active {
-        background-image: url(../images/step_icon/trc_active.png);
+        background-image: url(../images/step_icon/lrc_active.png);
 
         div {
           color: #fff;
@@ -200,7 +200,7 @@
 
   @media only screen and (max-width: 768px) {
 
-    .select-trc {
+    .select-lrc {
       width: 100%;
 
       &-item {

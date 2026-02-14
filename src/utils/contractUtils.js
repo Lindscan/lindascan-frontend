@@ -1,13 +1,13 @@
 import crypto from 'crypto';
 import bip39 from 'bip39';
 import bip32 from 'bip32';
-import LindaWeb from 'tronweb';
+import LindaWeb from '@lindacoin/lindaweb';
 import pbkdf2 from 'pbkdf2';
 import aesjs from "aes-js";
 import {
     isAddressValid,
     pkToAddress
-} from "@lindascan/client/src/utils/crypto";
+} from "@lindascan/apiclients/src/utils/crypto";
 import {
     utils
 } from 'ethers';
@@ -300,7 +300,7 @@ const Utils = {
                 const array = byteArray.filter((v, index) => index >= 32 * i && index < 32 * (i + 1));
                 if (type === 'address') {
                     value = LindaWeb.address.fromHex('41' + LindaWeb.utils.code.byteArray2hexStr(array.filter((v, i) => i > 11)));
-                } else if (type === 'trcToken') {
+                } else if (type === 'lrcToken') {
                     value = LindaWeb.toDecimal('0x' + LindaWeb.utils.code.byteArray2hexStr(array));
                 } else {
                     value = LindaWeb.toDecimal('0x' + LindaWeb.utils.code.byteArray2hexStr(array));

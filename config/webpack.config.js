@@ -314,7 +314,7 @@ module.exports = function(webpackEnv) {
       //name: false,
       cacheGroups: {
 
-        // lindaweb:{ 
+        // @lindacoin/lindaweb:{ 
         //   name:'lindaweb', 
         //   chunks:'all', 
         //   priority:11, 

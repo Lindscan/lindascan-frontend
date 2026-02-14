@@ -4,7 +4,7 @@ import React, { Fragment } from "react";
 import { injectIntl } from "react-intl";
 import { tu } from "../../../utils/i18n";
 import { Client } from "../../../services/api";
-import { isAddressValid } from "@lindascan/client/src/utils/crypto";
+import { isAddressValid } from "@lindascan/apiclients/src/utils/crypto";
 import { reloadWallet } from "../../../actions/wallet";
 import { LindaLoader } from "../../common/loaders";
 import { login } from "../../../actions/app";

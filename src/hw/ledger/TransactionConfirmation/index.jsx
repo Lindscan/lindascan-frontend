@@ -2,13 +2,13 @@ import React, {Fragment} from "react";
 import {ONE_LIND} from "../../../constants";
 import {AddressLink} from "../../../components/common/Links";
 import Field from "./Field";
-import {Transaction} from "@lindascan/client/src/protocol/core/Linda_pb";
+import {Transaction} from "@lindascan/apiclients/src/protocol/core/Linda_pb";
 import AccountName from "../../../components/common/AccountName";
 import {FormattedLIND} from "../../../utils/linda";
 import rebuildList from "../../../utils/rebuildList";
 import {FormattedNumber} from 'react-intl';
 import {Truncate} from "../../../components/common/text";
-import LindaWeb from "lindaweb";
+import LindaWeb from "@lindacoin/lindaweb";
 
 export default function Contract({ contract, extra }) {
   const contractParams = contract.parameter.value;

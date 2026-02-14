@@ -13,7 +13,7 @@ import SmartTable from "./SmartTable.js";
 import { upperFirst } from "lodash";
 import TotalInfo from "./../../components/addresses/components/TableTotal";
 import DateSelect from "./../../components/addresses/components/dateSelect";
-import {isAddressValid} from "@lindascan/client/src/utils/crypto";
+import {isAddressValid} from "@lindascan/apiclients/src/utils/crypto";
 import { CONTRACT_ADDRESS_USDT, CONTRACT_ADDRESS_WIN, CONTRACT_ADDRESS_GGC } from "../../constants";
 import moment from "moment";
 // import { NameWithId } from "./names";

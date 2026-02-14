@@ -49,7 +49,7 @@ class IssuedToken extends React.Component{
     }
 
     async getAppealRecent10(address){
-      const {data: {data, retCode}} = await xhr.get(CONTRACT_MAINNET_API_URL+'/external/trc_appeals/recent?address='+ address)
+      const {data: {data, retCode}} = await xhr.get(CONTRACT_MAINNET_API_URL+'/external/lrc_appeals/recent?address='+ address)
       if(retCode == 0){
         this.setState({appealInfo: data.appeal})
       }

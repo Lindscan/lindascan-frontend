@@ -2,7 +2,7 @@
 import { connect } from "react-redux";
 import React from "react";
 import { tu, t } from "../../../utils/i18n";
-import { generateAccount } from "@lindascan/client/src/utils/account";
+import { generateAccount } from "@lindascan/apiclients/src/utils/account";
 import { encryptKey, encryptString } from "../../../services/secureKey";
 import { downloadStringAsFile } from "../../../services/file";
 import { printPaperWallet } from "../Utils";
@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 import { login } from "../../../actions/app";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import ReactPasswordStrength from "react-password-strength";
-import { byteArray2hexStr } from "@lindascan/client/src/utils/bytes";
-import { stringToBytes } from "@lindascan/client/src/lib/code";
+import { byteArray2hexStr } from "@lindascan/apiclients/src/utils/bytes";
+import { stringToBytes } from "@lindascan/apiclients/src/lib/code";
 
 const uuidv4 = require("uuid/v4");
 

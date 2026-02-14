@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { tu } from '../../utils/i18n';
 import { Modal, Form, Input, Select } from 'antd';
 import PropTypes from 'prop-types';
-import { CURRENCYTYPE, FEELIMIT, LINDDEPOSITMIN, TRCDEPOSITMIN, ONE_LIND } from './../../constants';
+import { CURRENCYTYPE, FEELIMIT, LINDDEPOSITMIN, LRCDEPOSITMIN, ONE_LIND } from './../../constants';
 import { injectIntl } from 'react-intl';
 import SweetAlert from 'react-bootstrap-sweetalert';
 import { mul, division } from './../../utils/calculation';
@@ -149,7 +149,7 @@ class PledgeModal extends Component {
             }
 
             // min value
-            const minAmount = type === CURRENCYTYPE.LIND ? LINDDEPOSITMIN : division(TRCDEPOSITMIN, Math.pow(10, Number(precision)));
+            const minAmount = type === CURRENCYTYPE.LIND ? LINDDEPOSITMIN : division(LRCDEPOSITMIN, Math.pow(10, Number(precision)));
             if (Number(numValue) < minAmount) {
                 errorMess = `${intl.formatMessage({id: 'pledge_num_min_error'})}${minAmount}${currency}`;
             }

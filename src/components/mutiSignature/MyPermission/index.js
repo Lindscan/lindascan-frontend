@@ -11,7 +11,7 @@ import { isEqual, cloneDeep } from 'lodash'
 import { reloadWallet } from "../../../actions/wallet";
 import { deepCopy } from "ethers/utils";
 import { transactionMultiResultManager } from '../../../utils/linda'
-import { buildAccountPermissionUpdateContract } from '@lindascan/client/src/utils/transactionBuilder'
+import { buildAccountPermissionUpdateContract } from '@lindascan/apiclients/src/utils/transactionBuilder'
 import { postMutiSignTransaction } from '../../../services/apiMutiSign'
 import { injectIntl } from "react-intl";
 import { tu } from '../../../utils/i18n'

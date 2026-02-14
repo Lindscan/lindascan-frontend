@@ -333,7 +333,7 @@ Demo: curl -X Post  https://apilist.lindascan.org/api/broadcast
 
 # 38
 **/api/contract/events**
-Desc: List the TRC-20 transfers related to a specified account(only display the latest 10,000 data records in the query time range)
+Desc: List the LRC-20 transfers related to a specified account(only display the latest 10,000 data records in the query time range)
 Demo: curl -X Get  https://apilist.lindascan.org/api/contract/events?address=TSbJFbH8sSayRFMavwohY2P6QfKwQEWcaz&start=0&limit=20&start_timestamp=1529856000000&end_timestamp=1569490226162&contract=TNisVGhbxrJiEHyYUMPxRzgytUtGM7vssZ
 @param limit: page size for pagination;
 @param start: query index for pagination;
@@ -341,7 +341,7 @@ Demo: curl -X Get  https://apilist.lindascan.org/api/contract/events?address=TSb
 @param end_timestamp: query date range;
 @param address: an account;
 @param contract: contractaddress
-@return: TRC-20 transfers list;
+@return: LRC-20 transfers list;
 
 # 39
 **/api/internal-transaction**

@@ -6,7 +6,7 @@ import {LINDPrice} from "../../common/Price";
 import {tu} from "../../../utils/i18n";
 import {FormattedNumber, FormattedDate, injectIntl} from "react-intl";
 import rebuildList from "../../../utils/rebuildList";
-import {toUtf8} from 'lindaweb'
+import {toUtf8} from '@lindacoin/lindaweb'
 import { NameWithId } from '../../common/names';
 
 /**

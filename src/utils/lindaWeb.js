@@ -1,10 +1,10 @@
 import React from "react";
 import { connect } from "react-redux";
-import LindaWeb from "lindaweb";
-import { TransferAssetContract } from "@lindascan/client/src/protocol/core/Contract_pb";
+import LindaWeb from "@lindacoin/lindaweb";
+import { TransferAssetContract } from "@lindascan/apiclients/src/protocol/core/Contract_pb";
 import LedgerBridge from "../hw/ledger/LedgerBridge";
-import { transactionJsonToProtoBuf } from "@lindascan/client/src/utils/lindaWeb";
-import { byteArray2hexStr } from "@lindascan/client/src/utils/bytes";
+import { transactionJsonToProtoBuf } from "@lindascan/apiclients/src/utils/lindaWeb";
+import { byteArray2hexStr } from "@lindascan/apiclients/src/utils/bytes";
 import { Modal, ModalBody, ModalFooter, ModalHeader } from "reactstrap";
 import { PulseLoader } from "react-spinners";
 import Contract from "../hw/ledger/TransactionConfirmation";
@@ -47,7 +47,7 @@ export function withLindaWeb(InnerComponent) {
     };
     
     parameter2ValueDataHex = async( data, contractType) =>{
-      let contractData = await xhr.post(`https://tronexapi.lindascan.org/api/contract/convert`, {
+      let contractData = await xhr.post(`https://lindaexapi.lindascan.org/api/contract/convert`, {
         "outType":"hex",
         "data":data,
         "contractType":contractType

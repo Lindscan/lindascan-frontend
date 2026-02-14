@@ -12,7 +12,7 @@ import {TransationTitle} from './common/Title'
 import {injectIntl} from "react-intl";
 import Field from "../../../tools/TransactionViewer/Field";
 import xhr from "axios/index";
-import {toUtf8} from 'lindaweb'
+import {toUtf8} from '@lindacoin/lindaweb'
 
 function SetAccountIdContract({contract,intl}){
   // const name = useFetch(contract.hash)

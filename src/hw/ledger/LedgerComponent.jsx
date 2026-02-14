@@ -1,6 +1,6 @@
 import React from "react";
 import Transport from "@ledgerhq/hw-transport-u2f";
-import AppLind from '@ledgerhq/hw-app-lind';
+import AppLind from '@lindascan/hw-app-lind';
 
 export class LedgerComponent extends React.Component {
 

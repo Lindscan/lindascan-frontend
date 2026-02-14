@@ -1,5 +1,5 @@
 
-import {Transaction} from "@lindascan/client/src/protocol/core/Linda_pb";
+import {Transaction} from "@lindascan/apiclients/src/protocol/core/Linda_pb";
 
 let contractTypes = {};
 

@@ -71,7 +71,7 @@ export const setWebsocket = () => async dispatch => {
   // if(Lockr.get("websocket") === 'open'){
   //   return;
   // }
-  // var wsUri = "wss://apilist.lindascan.org/api/tronsocket";
+  // var wsUri = "wss://apilist.lindascan.org/api/lindasocket";
   let wsUrl;
 
   if (IS_MAINNET) {

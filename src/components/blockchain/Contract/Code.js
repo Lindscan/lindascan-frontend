@@ -5,7 +5,7 @@ import { LindaLoader } from "../../common/loaders";
 import { Radio, Tooltip } from "antd";
 import ContractInfo from "./ContractInfo";
 import EntryContract from "./EntryContract";
-import lindaWeb from "lindaweb";
+import lindaWeb from "@lindacoin/lindaweb";
 import { connect } from "react-redux";
 import {
   API_URL,

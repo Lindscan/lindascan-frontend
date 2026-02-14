@@ -33,13 +33,13 @@ import {doSearch, getSearchType} from "../services/search"
 import {readFileContentsFromEvent} from "../services/file"
 import {decryptString, validatePrivateKey} from "../services/secureKey";
 import SweetAlert from "react-bootstrap-sweetalert";
-import {passwordToAddress,pkToAddress} from "@lindascan/client/src/utils/crypto";
+import {passwordToAddress,pkToAddress} from "@lindascan/apiclients/src/utils/crypto";
 import Notifications from "./account/Notifications";
 import SendModal from "./transfer/Send/SendModal";
 import SendMultiModal from "./transfer/SendMulti/SendModal";
-import {bytesToString} from "@lindascan/client/src/utils/bytes";
-import {hexStr2byteArray} from "@lindascan/client/src/lib/code";
-import {isAddressValid} from "@lindascan/client/src/utils/crypto";
+import {bytesToString} from "@lindascan/apiclients/src/utils/bytes";
+import {hexStr2byteArray} from "@lindascan/apiclients/src/lib/code";
+import {isAddressValid} from "@lindascan/apiclients/src/utils/crypto";
 import ReceiveModal from "./transfer/Receive/ReceiveModal";
 import MenuNavigation from './MenuNavigation';
 import {toastr} from 'react-redux-toastr'

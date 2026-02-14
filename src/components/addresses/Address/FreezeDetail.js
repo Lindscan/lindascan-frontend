@@ -26,7 +26,7 @@ import { QuestionMark } from "../../common/QuestionMark";
 import { LindaLoader } from "../../common/loaders";
 import { Client, AccountApi } from "../../../services/api";
 import { API_URL } from "../../../constants";
-import { isAddressValid } from "@lindascan/client/src/utils/crypto";
+import { isAddressValid } from "@lindascan/apiclients/src/utils/crypto";
 
 class FreezeDetail extends Component {
   constructor(props) {

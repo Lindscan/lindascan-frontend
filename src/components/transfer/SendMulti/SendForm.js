@@ -4,7 +4,7 @@ import React, {Fragment} from "react";
 import {FormattedNumber, injectIntl} from "react-intl";
 import {tu} from "../../../utils/i18n";
 import {Client} from "../../../services/api";
-import {isAddressValid} from "@lindascan/client/src/utils/crypto";
+import {isAddressValid} from "@lindascan/apiclients/src/utils/crypto";
 import _, {find, round, isUndefined} from "lodash";
 import { ACCOUNT_LINDALINK, API_URL, ONE_LIND, IS_MAINNET } from "../../../constants";
 import {Alert} from "reactstrap";

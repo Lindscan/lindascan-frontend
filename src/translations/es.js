@@ -1552,7 +1552,7 @@ export const messages = {
   "propose_17": "Proponer permitir la delegación de recursos.",
   "propose_18": "Proponer modificar el límite de energía total.",
   "propose_18_1": "Propose to modify the total energy limit",
-  "propose_19": "Proponer permitir la transferencia de token TRC-10 en contratos inteligentes.",
+  "propose_19": "Proponer permitir la transferencia de token LRC-10 en contratos inteligentes.",
   "propose_20": "Proponer modificar el límite actual de energía total",
   "propose_21": "Recomiendan que habilite multi-firma",
   "propose_22": "Recomiendan que habilite la función de adjustar cantidad automáticamente",
@@ -1929,7 +1929,7 @@ export const messages = {
   "EnergyConsume_title": "LINDA Daily EnergyUsed History",
   "EnergyConsume_subtitle": "Click and drag in the point area to zoom in",
   "EnergyConsume_yaxis": "energy",
-  "20_transfers": "TRC-20 transfers",
+  "20_transfers": "LRC-20 transfers",
   "internal_transactions": "Transacciones internas",
 
   /*

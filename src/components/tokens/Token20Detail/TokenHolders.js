@@ -9,7 +9,7 @@ import { upperFirst, lowerCase } from "lodash";
 import xhr from "axios/index";
 import { API_URL, ONE_LIND } from "../../../constants";
 import { toastr } from "react-redux-toastr";
-import { isAddressValid } from "@lindascan/client/src/utils/crypto";
+import { isAddressValid } from "@lindascan/apiclients/src/utils/crypto";
 import { trim } from "lodash";
 import { FormatNumberByDecimals } from "../../../utils/number";
 import { connect } from "react-redux";
@@ -455,7 +455,7 @@ class TokenHolders extends React.Component {
         <div className="row transfers holder-transfers">
           <div className="col-md-12 table_pos">
             <HolderDistribution
-              trcType={"lrc20"}
+              lrcType={"lrc20"}
               tokenId={filter.token}
             ></HolderDistribution>
             <div

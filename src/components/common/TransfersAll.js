@@ -20,7 +20,7 @@ import moment from 'moment';
 import { toThousands } from '../../utils/number'
 import _ from "lodash";
 import { Radio } from 'antd';
-import {isAddressValid} from "@lindascan/client/src/utils/crypto";
+import {isAddressValid} from "@lindascan/apiclients/src/utils/crypto";
 import { CONTRACT_ADDRESS_USDT, CONTRACT_ADDRESS_WIN, CONTRACT_ADDRESS_GGC } from "../../constants";
 import qs from 'qs'
 import DateSelect from './dateSelect'

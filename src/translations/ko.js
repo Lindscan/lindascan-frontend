@@ -836,7 +836,7 @@ export const messages = {
   "ledger_note": "주의",
   "ledger_note_message_1": "현재는 Ledger Nano S,Ledger Nano X,Ledger Blue 만 지원됩니다.",
   "ledger_note_message_2": "구글 chrome 브라우저 사용",
-  "ledger_note_message_3": "지원 기능: LIND 전송, TRC 10 토큰 전송, TRC 20 토큰 전송, LIND 동결, LIND 해동， 투표, 계정 이름 설정.",
+  "ledger_note_message_3": "지원 기능: LIND 전송, LIND 10 토큰 전송, LIND 20 토큰 전송, LIND 동결, LIND 해동， 투표, 계정 이름 설정.",
   "ledger_note_message_4": "현재 지원 불가능한 기능 ： 토큰 생성, 거래소 거래, 슈퍼 대표 신청, 락업한 토큰 해제, 블록 상금 수령, github링크 업데이트, 거래 조합 생성, 거래 조합 자본 투자, 거래조합 자본 회수.",
 
   /*
@@ -1538,7 +1538,7 @@ export const messages = {
   "propose_17": "리소스 위임을 허용 제안",
   "propose_18": "총 에너지 한도 수정 제안",
   "propose_18_1": "総エネルギー上限の編集を提議します",
-  "propose_19": "스마트 컨트랙트에서 TRC-10 토큰 전송을 허용 제안",
+  "propose_19": "스마트 컨트랙트에서 LRC-10 토큰 전송을 허용 제안",
   "propose_20": "총 에너지 전류 제한 수정 제안",
   "propose_21": "다중 서명을 허용할것을 제안합니다",
   "propose_22": "총 ENERGY 조정 허용을 제안합니다",
@@ -1629,7 +1629,7 @@ export const messages = {
   "dex_search_dec": "거래 하려는 토큰의 약자를 입력하세요.",
   "LRC20_exchange_online": "LRC20 거래소에 상장하였습니다.",
   "Trade_on_Poloni DEX": "Poloni DEX에서 거래",
-  "issued_token_of_lindascan": "발급된 토큰은 lindascan이 검토한 후에만 TRC 10 토큰 개요에 표시됩니다.",
+  "issued_token_of_lindascan": "발급된 토큰은 lindascan이 검토한 후에만 LIND 10 토큰 개요에 표시됩니다.",
 
   /*
    ##################################################################################
@@ -1883,7 +1883,7 @@ export const messages = {
   "BTT_supply": "BTT 유통량",
   "BTT_Token_Release_Schedule": "BTT 토큰 해동 타임라인",
   "source_btt_team": "정보 출처：BTT 관리팀",
-  "20_transfers": "TRC-20 transfers",
+  "20_transfers": "LRC-20 transfers",
   "internal_transactions": "컨트랙트 내 거래",
   "total_energy_used_chart": "일일 컨트랙트 에너지 소모 차트",
   "total_used_energy": "총 소모한 에너지",

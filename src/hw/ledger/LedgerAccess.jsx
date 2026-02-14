@@ -11,7 +11,7 @@ import xhr from "axios/index";
 import { API_URL, ONE_LIND} from "../../constants";
 import Lockr from "lockr";
 import { Radio } from 'antd';
-import { isAddressValid } from "@lindascan/client/src/utils/crypto";
+import { isAddressValid } from "@lindascan/apiclients/src/utils/crypto";
 import { FormattedNumber } from "react-intl";
 
 function addressFormat(addr) {

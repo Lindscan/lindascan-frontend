@@ -28,7 +28,7 @@ import {
   FormatNumberByDecimalsBalance,
   toThousands
 } from "../../../utils/number";
-import { isAddressValid } from "@lindascan/client/src/utils/crypto";
+import { isAddressValid } from "@lindascan/apiclients/src/utils/crypto";
 import { toastr } from "react-redux-toastr";
 import { Tooltip, Icon } from "antd";
 import BigNumber from "bignumber.js";

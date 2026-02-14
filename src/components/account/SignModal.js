@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { tu } from '../../utils/i18n';
 import { Modal, Form, Input } from 'antd';
 import PropTypes from 'prop-types';
-import { CURRENCYTYPE, FEELIMIT, ONE_LIND, LINDWITHDRAWMIN, TRCWITHDRAWMIN } from './../../constants';
+import { CURRENCYTYPE, FEELIMIT, ONE_LIND, LINDWITHDRAWMIN, LRCWITHDRAWMIN } from './../../constants';
 import { injectIntl } from 'react-intl';
 import SweetAlert from 'react-bootstrap-sweetalert';
 import { mul, division, add } from './../../utils/calculation';
@@ -140,7 +140,7 @@ class SignModal extends Component {
             }
 
             // min value
-            const minAmount = type === CURRENCYTYPE.LIND ? LINDWITHDRAWMIN : division(TRCWITHDRAWMIN, Math.pow(10, Number(precision)));
+            const minAmount = type === CURRENCYTYPE.LIND ? LINDWITHDRAWMIN : division(LRCWITHDRAWMIN, Math.pow(10, Number(precision)));
             if (Number(numValue) < minAmount) {
                 errorMess = `${intl.formatMessage({id: 'pledge_num_min_error'})}${minAmount}${currency}`;
             }

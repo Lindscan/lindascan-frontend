@@ -837,7 +837,7 @@ export const messages = {
   "ledger_note": "ご注意",
   "ledger_note_message_1": "現在Ledger Nano S,Ledger Nano X,Ledger Blueのみに対応しています",
   "ledger_note_message_2": "ブラウザはchromeをお使いください",
-  "ledger_note_message_3": "現在利用可能な機能：LINDの送金、TRC‐10トークンの送金、TRC‐20トークンの送金、凍結、解凍、投票、アカウント名の編集。",
+  "ledger_note_message_3": "現在利用可能な機能：LINDの送金、LRC‐10トークンの送金、LRC‐20トークンの送金、凍結、解凍、投票、アカウント名の編集。",
   "ledger_note_message_4": "現在利用不可な機能：トークン新規作成、取引所での取引、スーパー代表の申請、ロックされたトークンの解凍、ブロック生成報酬の受取、githubリンクの変更、取引ペアの作成、取引ペアへの入金、取引ペアからの出金。",
   /*
   ##################################################################################
@@ -1893,7 +1893,7 @@ export const messages = {
   "BTT_supply": "BTT 供給",
   "BTT_Token_Release_Schedule": "BTTトークンリリーススケジュール",
   "source_btt_team": "出典：BTT管理チーム",
-  "20_transfers": "TRC-20 transfers",
+  "20_transfers": "LRC-20 transfers",
   "internal_transactions": "コントラクトにおけるトランザクション",
   "total_energy_used_chart": "毎日コントラクト・エネルギー使用の図",
   "total_used_energy": "消耗された総エネルギー",

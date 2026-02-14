@@ -13,7 +13,7 @@ import { Truncate } from "../../common/text";
 import SmartTable from "../../common/SmartTable";
 import { upperFirst, forIn, uniqWith, isEqual } from "lodash";
 import xhr from "axios/index";
-import lindaWeb from "lindaweb";
+import lindaWeb from "@lindacoin/lindaweb";
 import { Select } from "antd";
 import BlockTime from "../../common/blockTime";
 import { API_URL, SUNWEBCONFIG ,uuidv4} from "../../../constants";
@@ -55,7 +55,7 @@ class Transactions extends React.Component {
     this.setState({ loading: true });
 
     // let contractEvent = await Client.getContractEvent(filter.address);
-    // let {data} = await xhr.get(`https://api.lindagrid.io/event/contract/${filter.address}`);
+    // let {data} = await xhr.get(`https://api.lindagrid.lindacoin.org/event/contract/${filter.address}`);
     let { data } = await xhr.get(
       `${SUNWEBCONFIG.MAINEVENTSERVER}/event/contract/${filter.address}`
     );

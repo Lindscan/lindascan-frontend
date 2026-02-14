@@ -3,12 +3,12 @@ import xhr from "axios/index";
 class ApiClientAddress {
   constructor() {
     this.apiUrl = {
-      tronex:"https://httpapi.lindaex.lindacoin.org"
+      lindaex:"https://httpapi.lindaex.lindacoin.org"
     };
   }
 
   async getWalletReward(address) {
-    let url = this.apiUrl.tronex;
+    let url = this.apiUrl.lindaex;
     let { data } = await xhr.get(`${url}/wallet/getReward?address=${address}`);
     return data;
   }

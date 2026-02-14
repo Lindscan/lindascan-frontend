@@ -5,7 +5,7 @@ import { FormattedNumber, FormattedDate, injectIntl } from "react-intl";
 import "moment/min/locales";
 import moment from "moment";
 import { Steps } from "antd";
-import SelectTrc from "./SelectTrc";
+import SelectLrc from "./SelectLrc";
 import InputInfo from "./InputInfo/index";
 import SubmitInfo from "./SubmitInfo";
 import ResultInfo from "./resultInfo";
@@ -438,7 +438,7 @@ export class TokenCreate extends Component {
               <div className="card">
                 <div className="card-body">
                   {step === 0 && (
-                    <SelectTrc
+                    <SelectLrc
                       state={this.state}
                       nextStep={number => {
                         this.changeStep(number);

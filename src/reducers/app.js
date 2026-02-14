@@ -1,7 +1,7 @@
 import Lockr from "lockr";
-import LindaWeb from "lindaweb";
+import LindaWeb from "@lindacoin/lindaweb";
 import SunWeb from "sunweb";
-import LindaStationSDK from "lindastation";
+import LindaStationSDK from "@lindascan/lindastation";
 import {
   DISABLE_FLAG,
   ENABLE_FLAG,
@@ -23,8 +23,8 @@ import {
 import {
   passwordToAddress,
   pkToAddress
-} from "@lindascan/client/src/utils/crypto";
-import { base64DecodeFromString } from "@lindascan/client/src/lib/code";
+} from "@lindascan/apiclients/src/utils/crypto";
+import { base64DecodeFromString } from "@lindascan/apiclients/src/lib/code";
 import {
   ACCOUNT_ADDRESS,
   ACCOUNT_LEDGER,
@@ -39,8 +39,8 @@ import {
   RETRYFEE,
   LINDDEPOSITMIN,
   LINDWITHDRAWMIN,
-  TRCDEPOSITMIN,
-  TRCWITHDRAWMIN
+  LRCDEPOSITMIN,
+  LRCWITHDRAWMIN
 } from "../constants";
 
 

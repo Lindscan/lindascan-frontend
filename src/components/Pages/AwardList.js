@@ -98,7 +98,7 @@ class AwardList extends Component {
             让偶像活动更加多元.
             
             另外本游戏未来的更新将利用智能合约,
-            创造出百亿虚拟粉丝(TRC-721),
+            创造出百亿虚拟粉丝(LRC-721),
             每位虚拟粉丝都是独一无二的存在,
             会拥有游戏中的货币及物品,
             玩家可以透过游戏获取粉丝的关注,
@@ -111,10 +111,10 @@ class AwardList extends Component {
         {
             id:8,
             awards: 'Second Prize',
-            dappName:'LINDA Win',
+            dappName:'TRON Win',
             website:'tronwin.cc',
             websiteHref:'http://tronwin.cc',
-            Introduction:"LINDAWin wants to become the BIGGEST and BEST online gambling platform on LINDA.  We've developed lots of DApps on different blockchain before. Mine is our first try, lots of more is coming. Have fun!",
+            Introduction:"TRONWin wants to become the BIGGEST and BEST online gambling platform on TRON.  We've developed lots of DApps on different blockchain before. Mine is our first try, lots of more is coming. Have fun!",
             bonus:'3000',
         },
         {
@@ -150,7 +150,7 @@ class AwardList extends Component {
             dappName:'Poker',
             website:'tronpk.com',
             websiteHref:'http://tronpk.com',
-            Introduction:'LINDA Poker is a decentralized, fair, transparent, and open game platform based on blockchain technology.It has launched a variety of blockchain games based on LINDA smart contracts worldwide. The platform uses blockchain technology to provide completely fair game rules, automated revenue distribution, complete protection of player privacy, and all traceable transaction records.',
+            Introduction:'TRON Poker is a decentralized, fair, transparent, and open game platform based on blockchain technology.It has launched a variety of blockchain games based on LINDA smart contracts worldwide. The platform uses blockchain technology to provide completely fair game rules, automated revenue distribution, complete protection of player privacy, and all traceable transaction records.',
             bonus:'1000',
         },
         {

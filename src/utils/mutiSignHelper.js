@@ -1,4 +1,4 @@
-import { byteArray2hexStr } from "@lindascan/client/src/utils/bytes";
+import { byteArray2hexStr } from "@lindascan/apiclients/src/utils/bytes";
 export function getOperationsHexStrByContractIdArr(contractIdArr) {
     contractIdArr.sort(function(a,b){return a-b});
     let list = (contractIdArr.slice(0).slice(0));

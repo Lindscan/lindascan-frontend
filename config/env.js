@@ -83,7 +83,7 @@ function getClientEnvironment(publicUrl) {
         // API_URL: process.env.API_URL || `https://testapi.lindascan.org`,
         // API_URL: process.env.API_URL || `http://3.14.14.175:9000`,
         // API_URL: process.env.API_URL || `http://18.190.104.70:9000`,
-        // API_URL: process.env.API_URL ||  `https://tronexapi.lindascan.org`,
+        // API_URL: process.env.API_URL ||  `https://lindaexapi.lindascan.org`,
         // API_URL: process.env.API_URL ||  `https://nileapi.lindascan.org`,
         NET: process.env.NET || `mainnet`,
         DESKTOP: process.env.DESKTOP || `false`

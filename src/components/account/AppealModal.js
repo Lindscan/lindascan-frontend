@@ -34,7 +34,7 @@ class ChangeNameModal extends Component {
   };
   async getAppealRecent(){
     const { intl, address } = this.props
-    const {data: {data, retCode}} = await xhr.get(CONTRACT_MAINNET_API_URL+'/external/trc_appeals/recent?address='+ address)
+    const {data: {data, retCode}} = await xhr.get(CONTRACT_MAINNET_API_URL+'/external/lrc_appeals/recent?address='+ address)
     if(retCode == 0){
       let appealInfo = {errorInfo: [], ...data.appeal}
       if(data.appeal){
@@ -66,7 +66,7 @@ class ChangeNameModal extends Component {
     let hash = lindaWeb.toHex(content_str);
     let sig =  await lindaWeb.lind.sign(hash)
 
-    const { data } = await xhr.post(CONTRACT_MAINNET_API_URL+`/external/trc_appeals/${appealInfo.id}/update`, {
+    const { data } = await xhr.post(CONTRACT_MAINNET_API_URL+`/external/lrc_appeals/${appealInfo.id}/update`, {
       content: content_str,
       sig
     })

@@ -22,7 +22,7 @@ class Footer extends Component {
       links: [
         {
           icon: "fab fa-telegram",
-          url: "https://t.me/tronscan_org",
+          url: "https://t.me/lindascan_org",
           name: "Telegram"
         },
         {
@@ -84,7 +84,7 @@ class Footer extends Component {
                   <h5>{tu("footer_fellow_us")}</h5>
                   <ul className="list-unstyled">
                     <li className="d-flex">
-                      <HrefLink href="https://t.me/tronscan_org">
+                      <HrefLink href="https://t.me/lindascan_org">
                         <i className="fab fa-telegram mr-1"></i>Telegram
                       </HrefLink>
                     </li>
@@ -179,7 +179,7 @@ class Footer extends Component {
                       </HrefLink>
                     </li>
                     <li>
-                      <HrefLink href="https://tron.app">DApp House</HrefLink>
+                      <HrefLink href="https://linda.app">DApp House</HrefLink>
                     </li>
                   </ul>
                 </div>
@@ -208,7 +208,7 @@ class Footer extends Component {
                       </HrefLink>
                     </li>
                     {/* <li>
-                    <HrefLink href={activeLanguage == 'zh'?"https://tronscanorg.zendesk.com/hc/zh-cn/categories/360001616871-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98":"https://tronscanorg.zendesk.com/hc/en-us/categories/360001621712-FAQ"}>
+                    <HrefLink href={activeLanguage == 'zh'?"https://tronscanorg.zendesk.com/hc/zh-cn/categories/360001616871-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98":"https://lindascanorg.zendesk.com/hc/en-us/categories/360001621712-FAQ"}>
                         {tu('frequently_asked_questions')}
                     </HrefLink>
                   </li> */}
@@ -222,12 +222,12 @@ class Footer extends Component {
               {/*style={{ marginBottom: 4 }}*/}
               {/*>*/}
               {/*<li className="list-inline-item">*/}
-              {/*<HrefLink href="https://www.facebook.com/tronfoundation/">*/}
+              {/*<HrefLink href="https://www.facebook.com/lindafoundation/">*/}
               {/*<i className="fab fa-facebook" />*/}
               {/*</HrefLink>*/}
               {/*</li>*/}
               {/*<li className="list-inline-item">*/}
-              {/*<HrefLink href="https://github.com/tronscan/tronscan-frontend">*/}
+              {/*<HrefLink href="https://github.com/lindascan/lindascan-frontend">*/}
               {/*<i className="fab fa-github" />*/}
               {/*</HrefLink>*/}
               {/*</li>*/}
@@ -324,7 +324,7 @@ class Footer extends Component {
                           <HrefLink href="https://tronlending.org/?utm_source=TS">LINDALENDING</HrefLink>
                         </li>
                         <li className="p-2">
-                          <HrefLink href="https://tron.app">DApp House</HrefLink>
+                          <HrefLink href="https://linda.app">DApp House</HrefLink>
                         </li>
                       </ul>
                     </div>
@@ -333,7 +333,7 @@ class Footer extends Component {
 
                       <ul className="list-unstyled quick-links">
                         <li className="p-2">
-                          <HrefLink href="https://github.com/tronprotocol">
+                          <HrefLink href="https://github.com/lindaprotocol">
                             Github
                           </HrefLink>
                         </li>
@@ -425,7 +425,7 @@ class Footer extends Component {
                   <div>
                     <div className="fr footer-slogan">
                       <img src={require("../../images/footer/LINDA.png")} />
-                      <p className="pt-2">{tu("index_page_tronscan_info")}</p>
+                      <p className="pt-2">{tu("index_page_lindascan_info")}</p>
                       <ul className="d-flex fr pt-4 mt-4">
                         {links.map((item, ind) => {
                           if (item.name != "WeChat") {

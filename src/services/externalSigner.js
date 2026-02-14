@@ -1,7 +1,7 @@
 import {channel} from "./api";
-import {byteArray2hexStr} from "@lindascan/client/src/utils/bytes";
-import {hexStr2byteArray} from "@lindascan/client/src/lib/code";
-import {Transaction} from "@lindascan/client/src/protocol/core/Linda_pb";
+import {byteArray2hexStr} from "@lindascan/apiclients/src/utils/bytes";
+import {hexStr2byteArray} from "@lindascan/apiclients/src/lib/code";
+import {Transaction} from "@lindascan/apiclients/src/protocol/core/Linda_pb";
 import {random} from "lodash";
 
 const uuidv1 = require("uuid/v1");

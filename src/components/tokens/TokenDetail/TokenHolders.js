@@ -7,7 +7,7 @@ import SmartTable from "../../common/SmartTable.js";
 import { FormattedNumber, injectIntl } from "react-intl";
 import { LindaLoader } from "../../common/loaders";
 import { toastr } from "react-redux-toastr";
-import { isAddressValid } from "@lindascan/client/src/utils/crypto";
+import { isAddressValid } from "@lindascan/apiclients/src/utils/crypto";
 import { trim } from "lodash";
 import { upperFirst, upperCase, lowerCase } from "lodash";
 import { Tooltip } from "antd";
@@ -493,7 +493,7 @@ class TokenHolders extends React.Component {
         <div className="row transfers">
           <div className="col-md-12 table_pos">
             <HolderDistribution
-              trcType={"lrc10"}
+              lrcType={"lrc10"}
               tokenId={filter.tokenId}
             ></HolderDistribution>
             <div

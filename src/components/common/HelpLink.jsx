@@ -76,7 +76,7 @@ class HelpLinkCont extends Component {
                 </a>
               </li>
               <li className="telegram commonLi">
-                <a href="https://t.me/tronscan_org" target="_blank">
+                <a href="https://t.me/lindascan_org" target="_blank">
                   <span className="img"></span>
                 </a>
               </li>
