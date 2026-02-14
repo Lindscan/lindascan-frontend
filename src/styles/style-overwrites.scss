@@ -462,7 +462,7 @@ body .token_black {
 @each $name, $color in (red, $main-red), (green, $green), (yellow, $yellow),
   (blue, $blue)
 {
-  .bg-line_#{$name} {
+  .bg-line_#{"$name"} {
     position: relative;
     &:after {
       content: "";
