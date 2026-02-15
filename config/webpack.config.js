@@ -510,8 +510,17 @@ module.exports = function(webpackEnv) {
                     { helpers: true },
                   ],
                 ],
+                plugins: [
+                     require.resolve('@babel/plugin-proposal-class-properties'),
+                     require.resolve('@babel/plugin-proposal-optional-chaining'),
+                     require.resolve('@babel/plugin-proposal-nullish-coalescing-operator'),
+                     require.resolve('@babel/plugin-proposal-private-methods'),
+                     require.resolve('@babel/plugin-proposal-private-property-in-object'),
+                     require.resolve('@babel/plugin-proposal-numeric-separator'),
+                ],
                 cacheDirectory: true,
                 cacheCompression: isEnvProduction,
+                sourceMaps: false,
                 
                 // If an error happens in a package, it's possible to be
                 // because it was compiled. Thus, we don't want the browser
